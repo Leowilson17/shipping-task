@@ -1,0 +1,115 @@
+.main-container{
+    margin: 0px auto;
+    /* text-align: center; */
+    width: 950px;
+}
+.background-cont{
+    background-image: url(/img_files/bg_img2.jpg);
+    background-size: cover;
+ }
+.yellow-head{
+    display: flex;
+    justify-content:space-between ;
+}
+.ship-text{
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: yellow;
+    padding: 10px;
+    font-weight: 900;
+}
+.logo-text1{
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    transform: translateX(20px);
+}
+.day{
+    font-size: 30px;
+    font-family: 'Pangolin', cursive;
+    text-transform: uppercase;
+}
+.line{
+    border-top: 2px solid black;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(150, 140, 140);
+    text-transform: uppercase;
+}
+.discount-container{
+    text-align: center;
+    transform: translateY(20px);
+    text-transform: uppercase;
+}
+.center-line{
+    font-size: 25px;
+}
+.line-1{
+    position: relative;
+    border: none;
+    margin: 0px auto;
+    width: 400px;
+    border-bottom: 10px solid rgb(115 221 185);
+}
+.line-2 {
+    position: absolute;
+    width: 400px;
+    border: none;
+    left: 275px;
+    top: 10%;
+    border-bottom: 10px solid rgb(137 215 228);
+}
+.discount-container span{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+}
+.discount-container .boot{
+    font-size: 50px;
+    font-weight: unset;
+}
+.img-section{
+    margin-top: 30px;
+    text-align: center;
+}
+.img-section h2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgb(137 215 228);
+}
+.para-tag h4{
+    margin-top: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.paragraph{
+    margin: auto;
+    width: 800px;
+}
+.para-tag p{
+    font-size: 20px;
+}
+.footer-flex{
+    display: flex;
+    justify-content: end;
+}
+.footer h2{
+   font-size: 20px;
+   text-transform: uppercase;
+   margin-right: 20px;
+}
+.footer img{
+    height: 26px;
+    margin-right: 20px;
+} 
